@@ -1,0 +1,16 @@
+.ipynb_checkpoints
+__pycache__
+
+# images
+datasets
+aug_datasets
+
+# pre-computed feature vectors
+feature_vectors
+aug_feature_vectors
+# pre-trained weights, e.g. for the ResNet18 models trained for DS-MIL work
+weights
+!weights/README.md
+
+# logs
+logs
