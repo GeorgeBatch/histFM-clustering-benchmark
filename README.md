@@ -2,6 +2,8 @@
 
 Feature extration and clustering evaluation code in this repository is based on my code from [LC25000-clean](https://github.com/GeorgeBatch/LC25000-clean)
 
+Patch extraction code uses TIAToolbox: https://github.com/TissueImageAnalytics/tiatoolbox
+
 ## Environment Setup
 
 Run the commands detailed in the [environment-creation.md](./environment-creation.md) file to create a conda environment with the necessary dependencies.
