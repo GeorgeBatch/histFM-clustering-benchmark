@@ -99,87 +99,87 @@ def save_features(contents, paths):
 # python aug_c_extract_features.py --dataset ouh_batch1_20x --img_norm imagenet --extractor_name owkin-phikon-v2 --batch_size 256
 # python aug_c_extract_features.py --dataset ouh_batch1_20x --img_norm imagenet --extractor_name virchow-v1-concat --batch_size 256
 # python aug_c_extract_features.py --dataset ouh_batch1_20x --img_norm resize_only --extractor_name simclr-tcga-lung_resnet18-10x --batch_size 256
-# python aug_c_extract_features.py --dataset ouh_batch1_20x --img_norm imagenet --extractor_name simclr-tcga-lung_resnet18-10x --batch_size 256 # job 25704684 (done)
+# python aug_c_extract_features.py --dataset ouh_batch1_20x --img_norm imagenet --extractor_name simclr-tcga-lung_resnet18-10x --batch_size 256
 # TODO:
 
 # ouh_batch1_40x for models: UNI, prov-gigapath, owkin-phikon-v2, virchow-v1-concat, simclr-tcga-lung_resnet18-10x
 # Done
 # python aug_c_extract_features.py --dataset ouh_batch1_40x --img_norm imagenet --extractor_name UNI --batch_size 256
-# python aug_c_extract_features.py --dataset ouh_batch1_40x --img_norm imagenet --extractor_name prov-gigapath --batch_size 256 # (job job 25605260: ouh_batch1_40x, prov-gigapath)
-# python aug_c_extract_features.py --dataset ouh_batch1_40x --img_norm imagenet --extractor_name owkin-phikon-v2 --batch_size 25 # (job 25605309)
-# python aug_c_extract_features.py --dataset ouh_batch1_40x --img_norm imagenet --extractor_name virchow-v1-concat --batch_size 256 # (job 25605311)
-# python aug_c_extract_features.py --dataset ouh_batch1_40x --img_norm resize_only --extractor_name simclr-tcga-lung_resnet18-10x --batch_size 256 # (job 25605313)
-# python aug_c_extract_features.py --dataset ouh_batch1_40x --img_norm imagenet --extractor_name simclr-tcga-lung_resnet18-10x --batch_size 256 # job 25704732 (done)
+# python aug_c_extract_features.py --dataset ouh_batch1_40x --img_norm imagenet --extractor_name prov-gigapath --batch_size 256
+# python aug_c_extract_features.py --dataset ouh_batch1_40x --img_norm imagenet --extractor_name owkin-phikon-v2 --batch_size 25
+# python aug_c_extract_features.py --dataset ouh_batch1_40x --img_norm imagenet --extractor_name virchow-v1-concat --batch_size 256
+# python aug_c_extract_features.py --dataset ouh_batch1_40x --img_norm resize_only --extractor_name simclr-tcga-lung_resnet18-10x --batch_size 256
+# python aug_c_extract_features.py --dataset ouh_batch1_40x --img_norm imagenet --extractor_name simclr-tcga-lung_resnet18-10x --batch_size 256
 # TODO:
 
 # ouh_batch2_20x for models: UNI, prov-gigapath, owkin-phikon-v2, virchow-v1-concat, simclr-tcga-lung_resnet18-10x
 # Done
-# python aug_c_extract_features.py --dataset ouh_batch2_20x --img_norm imagenet --extractor_name UNI --batch_size 256 # (job 25605340 failed), (job 25605358)
-# python aug_c_extract_features.py --dataset ouh_batch2_20x --img_norm imagenet --extractor_name prov-gigapath --batch_size 256 # (job 25605343 failed), (job 25605362)
-# python aug_c_extract_features.py --dataset ouh_batch2_20x --img_norm imagenet --extractor_name owkin-phikon-v2 --batch_size 256 # (job 25605348 failed), (job 25605369)
-# python aug_c_extract_features.py --dataset ouh_batch2_20x --img_norm imagenet --extractor_name virchow-v1-concat --batch_size 256 # (job 25605373)
-# python aug_c_extract_features.py --dataset ouh_batch2_20x --img_norm resize_only --extractor_name simclr-tcga-lung_resnet18-10x --batch_size 256 # (job 25605375)
-# python aug_c_extract_features.py --dataset ouh_batch2_20x --img_norm imagenet --extractor_name simclr-tcga-lung_resnet18-10x --batch_size 256 # job 25704753 (done)
+# python aug_c_extract_features.py --dataset ouh_batch2_20x --img_norm imagenet --extractor_name UNI --batch_size 256
+# python aug_c_extract_features.py --dataset ouh_batch2_20x --img_norm imagenet --extractor_name prov-gigapath --batch_size 256
+# python aug_c_extract_features.py --dataset ouh_batch2_20x --img_norm imagenet --extractor_name owkin-phikon-v2 --batch_size 256
+# python aug_c_extract_features.py --dataset ouh_batch2_20x --img_norm imagenet --extractor_name virchow-v1-concat --batch_size 256
+# python aug_c_extract_features.py --dataset ouh_batch2_20x --img_norm resize_only --extractor_name simclr-tcga-lung_resnet18-10x --batch_size 256
+# python aug_c_extract_features.py --dataset ouh_batch2_20x --img_norm imagenet --extractor_name simclr-tcga-lung_resnet18-10x --batch_size 256
 # TODO:
 
 # ouh_batch3_40x for models: UNI, prov-gigapath, owkin-phikon-v2, virchow-v1-concat, simclr-tcga-lung_resnet18-10x
 # Done:
-# python aug_c_extract_features.py --dataset ouh_batch3_40x --img_norm imagenet --extractor_name UNI --batch_size 256 # job 25605396
-# python aug_c_extract_features.py --dataset ouh_batch3_40x --img_norm imagenet --extractor_name prov-gigapath --batch_size 256 # job 25605400
-# python aug_c_extract_features.py --dataset ouh_batch3_40x --img_norm imagenet --extractor_name owkin-phikon-v2 --batch_size 256 # job 25605403
-# python aug_c_extract_features.py --dataset ouh_batch3_40x --img_norm imagenet --extractor_name virchow-v1-concat --batch_size 256 # job 25605710
-# python aug_c_extract_features.py --dataset ouh_batch3_40x --img_norm resize_only --extractor_name simclr-tcga-lung_resnet18-10x --batch_size 256 # job 25606011
-# python aug_c_extract_features.py --dataset ouh_batch3_40x --img_norm imagenet --extractor_name simclr-tcga-lung_resnet18-10x --batch_size 256 # job 25704781 (done)
+# python aug_c_extract_features.py --dataset ouh_batch3_40x --img_norm imagenet --extractor_name UNI --batch_size 256
+# python aug_c_extract_features.py --dataset ouh_batch3_40x --img_norm imagenet --extractor_name prov-gigapath --batch_size 256
+# python aug_c_extract_features.py --dataset ouh_batch3_40x --img_norm imagenet --extractor_name owkin-phikon-v2 --batch_size 256
+# python aug_c_extract_features.py --dataset ouh_batch3_40x --img_norm imagenet --extractor_name virchow-v1-concat --batch_size 256
+# python aug_c_extract_features.py --dataset ouh_batch3_40x --img_norm resize_only --extractor_name simclr-tcga-lung_resnet18-10x --batch_size 256
+# python aug_c_extract_features.py --dataset ouh_batch3_40x --img_norm imagenet --extractor_name simclr-tcga-lung_resnet18-10x --batch_size 256
 # TODO:
 
 # DART_001 for models: UNI, prov-gigapath, owkin-phikon-v2, virchow-v1-concat, simclr-tcga-lung_resnet18-10x
 # Done:
-# python aug_c_extract_features.py --dataset DART_001 --img_norm imagenet --extractor_name UNI --batch_size 256 # job 25606155
-# python aug_c_extract_features.py --dataset DART_001 --img_norm imagenet --extractor_name prov-gigapath --batch_size 256 # job 25606177
-# python aug_c_extract_features.py --dataset DART_001 --img_norm imagenet --extractor_name owkin-phikon-v2 --batch_size 256 # job 25606183
-# python aug_c_extract_features.py --dataset DART_001 --img_norm imagenet --extractor_name virchow-v1-concat --batch_size 256 # job 25606184
-# python aug_c_extract_features.py --dataset DART_001 --img_norm resize_only --extractor_name simclr-tcga-lung_resnet18-10x --batch_size 256 # 25606186
-# python aug_c_extract_features.py --dataset DART_001 --img_norm imagenet --extractor_name simclr-tcga-lung_resnet18-10x --batch_size 256 # 25704805 (done)
+# python aug_c_extract_features.py --dataset DART_001 --img_norm imagenet --extractor_name UNI --batch_size 256
+# python aug_c_extract_features.py --dataset DART_001 --img_norm imagenet --extractor_name prov-gigapath --batch_size 256
+# python aug_c_extract_features.py --dataset DART_001 --img_norm imagenet --extractor_name owkin-phikon-v2 --batch_size 256
+# python aug_c_extract_features.py --dataset DART_001 --img_norm imagenet --extractor_name virchow-v1-concat --batch_size 256
+# python aug_c_extract_features.py --dataset DART_001 --img_norm resize_only --extractor_name simclr-tcga-lung_resnet18-10x --batch_size 256
+# python aug_c_extract_features.py --dataset DART_001 --img_norm imagenet --extractor_name simclr-tcga-lung_resnet18-10x --batch_size 256
 # TODO:
 
 # DART_002 for models: UNI, prov-gigapath, owkin-phikon-v2, virchow-v1-concat, simclr-tcga-lung_resnet18-10x
 # Done:
-# python aug_c_extract_features.py --dataset DART_002 --img_norm imagenet --extractor_name UNI --batch_size 256 # job 25606219
-# python aug_c_extract_features.py --dataset DART_002 --img_norm imagenet --extractor_name prov-gigapath --batch_size 256 # job 25606222
-# python aug_c_extract_features.py --dataset DART_002 --img_norm imagenet --extractor_name owkin-phikon-v2 --batch_size 256 # job 25606223
-# python aug_c_extract_features.py --dataset DART_002 --img_norm imagenet --extractor_name virchow-v1-concat --batch_size 256 # job 25606227
-# python aug_c_extract_features.py --dataset DART_002 --img_norm resize_only --extractor_name simclr-tcga-lung_resnet18-10x --batch_size 256 # job 25606230
-# python aug_c_extract_features.py --dataset DART_002 --img_norm imagenet --extractor_name simclr-tcga-lung_resnet18-10x --batch_size 256 # 25704843 (done)
+# python aug_c_extract_features.py --dataset DART_002 --img_norm imagenet --extractor_name UNI --batch_size 256
+# python aug_c_extract_features.py --dataset DART_002 --img_norm imagenet --extractor_name prov-gigapath --batch_size 256
+# python aug_c_extract_features.py --dataset DART_002 --img_norm imagenet --extractor_name owkin-phikon-v2 --batch_size 256
+# python aug_c_extract_features.py --dataset DART_002 --img_norm imagenet --extractor_name virchow-v1-concat --batch_size 256
+# python aug_c_extract_features.py --dataset DART_002 --img_norm resize_only --extractor_name simclr-tcga-lung_resnet18-10x --batch_size 256
+# python aug_c_extract_features.py --dataset DART_002 --img_norm imagenet --extractor_name simclr-tcga-lung_resnet18-10x --batch_size 256
 # TODO:
 
 # DART_004 for models: UNI, prov-gigapath, owkin-phikon-v2, virchow-v1-concat, simclr-tcga-lung_resnet18-10x
 # Done:
-# python aug_c_extract_features.py --dataset DART_004 --img_norm imagenet --extractor_name UNI --batch_size 256 # job 25606239
-# python aug_c_extract_features.py --dataset DART_004 --img_norm imagenet --extractor_name prov-gigapath --batch_size 256 # job 25606243
-# python aug_c_extract_features.py --dataset DART_004 --img_norm imagenet --extractor_name owkin-phikon-v2 --batch_size 256 # job 25606244
-# python aug_c_extract_features.py --dataset DART_004 --img_norm imagenet --extractor_name virchow-v1-concat --batch_size 256 # job 25606249
-# python aug_c_extract_features.py --dataset DART_004 --img_norm resize_only --extractor_name simclr-tcga-lung_resnet18-10x --batch_size 256 # job 25606257
-# python aug_c_extract_features.py --dataset DART_004 --img_norm imagenet --extractor_name simclr-tcga-lung_resnet18-10x --batch_size 256 # 25704882 (done)
+# python aug_c_extract_features.py --dataset DART_004 --img_norm imagenet --extractor_name UNI --batch_size 256
+# python aug_c_extract_features.py --dataset DART_004 --img_norm imagenet --extractor_name prov-gigapath --batch_size 256
+# python aug_c_extract_features.py --dataset DART_004 --img_norm imagenet --extractor_name owkin-phikon-v2 --batch_size 256
+# python aug_c_extract_features.py --dataset DART_004 --img_norm imagenet --extractor_name virchow-v1-concat --batch_size 256
+# python aug_c_extract_features.py --dataset DART_004 --img_norm resize_only --extractor_name simclr-tcga-lung_resnet18-10x --batch_size 256
+# python aug_c_extract_features.py --dataset DART_004 --img_norm imagenet --extractor_name simclr-tcga-lung_resnet18-10x --batch_size 256
 # TODO:
 
 # DART_003 for models: UNI, prov-gigapath, owkin-phikon-v2, virchow-v1-concat, simclr-tcga-lung_resnet18-10x
 # Done:
-# python aug_c_extract_features.py --dataset DART_003 --img_norm imagenet --extractor_name UNI --batch_size 256 # job 25606669 (failed), job 25615104
-# python aug_c_extract_features.py --dataset DART_003 --img_norm imagenet --extractor_name prov-gigapath --batch_size 256 # job 25606870 (failed), job 25615863
-# python aug_c_extract_features.py --dataset DART_003 --img_norm imagenet --extractor_name owkin-phikon-v2 --batch_size 256 # job 25606874 (failed), job 25615930
-# python aug_c_extract_features.py --dataset DART_003 --img_norm imagenet --extractor_name virchow-v1-concat --batch_size 256 # job 25606876 (failed), job 25615993
-# python aug_c_extract_features.py --dataset DART_003 --img_norm resize_only --extractor_name simclr-tcga-lung_resnet18-10x --batch_size 256 # job 25606913 (failed), job 25616028
-# python aug_c_extract_features.py --dataset DART_003 --img_norm imagenet --extractor_name simclr-tcga-lung_resnet18-10x --batch_size 256 # 25704942 (done)
+# python aug_c_extract_features.py --dataset DART_003 --img_norm imagenet --extractor_name UNI --batch_size 256
+# python aug_c_extract_features.py --dataset DART_003 --img_norm imagenet --extractor_name prov-gigapath --batch_size 256
+# python aug_c_extract_features.py --dataset DART_003 --img_norm imagenet --extractor_name owkin-phikon-v2 --batch_size 256
+# python aug_c_extract_features.py --dataset DART_003 --img_norm imagenet --extractor_name virchow-v1-concat --batch_size 256
+# python aug_c_extract_features.py --dataset DART_003 --img_norm resize_only --extractor_name simclr-tcga-lung_resnet18-10x --batch_size 256
+# python aug_c_extract_features.py --dataset DART_003 --img_norm imagenet --extractor_name simclr-tcga-lung_resnet18-10x --batch_size 256
 # TODO:
 
 # CAMELYON16 for models: UNI, prov-gigapath, owkin-phikon-v2, virchow-v1-concat, simclr-camelyon16_resnet18-20x
 # Done:
-# python aug_c_extract_features.py --dataset CAMELYON16 --img_norm imagenet --extractor_name UNI --batch_size 256 # job (25635964 failed), 25641098
-# python aug_c_extract_features.py --dataset CAMELYON16 --img_norm imagenet --extractor_name prov-gigapath --batch_size 256 # job (25635965 failed), 25641108
-# python aug_c_extract_features.py --dataset CAMELYON16 --img_norm imagenet --extractor_name owkin-phikon-v2 --batch_size 256 # job (25635966 failed), 25641112
-# python aug_c_extract_features.py --dataset CAMELYON16 --img_norm imagenet --extractor_name virchow-v1-concat --batch_size 256 # job (25635967 failed), 25641119
-# CUDA_VISIBLE_DEVICES=0 python aug_c_extract_features.py --dataset CAMELYON16 --img_norm resize_only --extractor_name simclr-camelyon16_resnet18-20x --batch_size 256 # (done) in tmux comp-aug-camelyon16-features on compg023
-# python aug_c_extract_features.py --dataset CAMELYON16 --img_norm imagenet --extractor_name simclr-camelyon16_resnet18-20x --batch_size 256 # 25705080 (done)
+# python aug_c_extract_features.py --dataset CAMELYON16 --img_norm imagenet --extractor_name UNI --batch_size 256
+# python aug_c_extract_features.py --dataset CAMELYON16 --img_norm imagenet --extractor_name prov-gigapath --batch_size 256
+# python aug_c_extract_features.py --dataset CAMELYON16 --img_norm imagenet --extractor_name owkin-phikon-v2 --batch_size 256
+# python aug_c_extract_features.py --dataset CAMELYON16 --img_norm imagenet --extractor_name virchow-v1-concat --batch_size 256
+# CUDA_VISIBLE_DEVICES=0 python aug_c_extract_features.py --dataset CAMELYON16 --img_norm resize_only --extractor_name simclr-camelyon16_resnet18-20x --batch_size 256
+# python aug_c_extract_features.py --dataset CAMELYON16 --img_norm imagenet --extractor_name simclr-camelyon16_resnet18-20x --batch_size 256
 # TODO:
 
 # -----------------------------------------------------------------------------------------------
@@ -188,22 +188,22 @@ def save_features(contents, paths):
 
 # TCIA-CPTAC for models: UNI, prov-gigapath, owkin-phikon-v2, virchow-v1-concat, simclr-tcga-lung_resnet18-10x
 # Done:
-# python aug_c_extract_features.py --dataset TCIA-CPTAC --img_norm imagenet --extractor_name UNI --batch_size 256 # job 25606997 (canceled), job 25616155 (done)
-# python aug_c_extract_features.py --dataset TCIA-CPTAC --img_norm imagenet --extractor_name prov-gigapath --batch_size 256 # job 25607064 (canceled), job 25616190 (done)
-# python aug_c_extract_features.py --dataset TCIA-CPTAC --img_norm imagenet --extractor_name owkin-phikon-v2 --batch_size 256 # job 25607178 (canceled), job 25616225 (done)
-# python aug_c_extract_features.py --dataset TCIA-CPTAC --img_norm imagenet --extractor_name virchow-v1-concat --batch_size 256 # job 25607280 (canceled), job 25616227 (done)
-# python aug_c_extract_features.py --dataset TCIA-CPTAC --img_norm resize_only --extractor_name simclr-tcga-lung_resnet18-10x --batch_size 256 # job 25607342 (canceled), job 25616254 (done)
-# python aug_c_extract_features.py --dataset TCIA-CPTAC --img_norm imagenet --extractor_name simclr-tcga-lung_resnet18-10x --batch_size 256 # 25705491 (done)
+# python aug_c_extract_features.py --dataset TCIA-CPTAC --img_norm imagenet --extractor_name UNI --batch_size 256
+# python aug_c_extract_features.py --dataset TCIA-CPTAC --img_norm imagenet --extractor_name prov-gigapath --batch_size 256
+# python aug_c_extract_features.py --dataset TCIA-CPTAC --img_norm imagenet --extractor_name owkin-phikon-v2 --batch_size 256
+# python aug_c_extract_features.py --dataset TCIA-CPTAC --img_norm imagenet --extractor_name virchow-v1-concat --batch_size 256
+# python aug_c_extract_features.py --dataset TCIA-CPTAC --img_norm resize_only --extractor_name simclr-tcga-lung_resnet18-10x --batch_size 256
+# python aug_c_extract_features.py --dataset TCIA-CPTAC --img_norm imagenet --extractor_name simclr-tcga-lung_resnet18-10x --batch_size 256
 # TODO:
 
 # TCGA-lung for models: UNI, prov-gigapath, owkin-phikon-v2, virchow-v1-concat, simclr-tcga-lung_resnet18-10x
 # Done:
-# python aug_c_extract_features.py --dataset TCGA-lung --img_norm imagenet --extractor_name UNI --batch_size 256 # job 25607398 (canceled), job 25616276 (done)
-# python aug_c_extract_features.py --dataset TCGA-lung --img_norm imagenet --extractor_name prov-gigapath --batch_size 256 # job 25607438 (canceled), job 25616278 (done)
-# python aug_c_extract_features.py --dataset TCGA-lung --img_norm imagenet --extractor_name owkin-phikon-v2 --batch_size 256 # job 25607515 (canceled), job 25616303 (done)
-# python aug_c_extract_features.py --dataset TCGA-lung --img_norm imagenet --extractor_name virchow-v1-concat --batch_size 256 # job 25607573 (canceled), job 25616332 (done)
-# python aug_c_extract_features.py --dataset TCGA-lung --img_norm resize_only --extractor_name simclr-tcga-lung_resnet18-10x --batch_size 256 # job 25607630 (canceled), job 25616333 (done)
-# python aug_c_extract_features.py --dataset TCGA-lung --img_norm imagenet --extractor_name simclr-tcga-lung_resnet18-10x --batch_size 256 # 25705241 (done)
+# python aug_c_extract_features.py --dataset TCGA-lung --img_norm imagenet --extractor_name UNI --batch_size 256
+# python aug_c_extract_features.py --dataset TCGA-lung --img_norm imagenet --extractor_name prov-gigapath --batch_size 256
+# python aug_c_extract_features.py --dataset TCGA-lung --img_norm imagenet --extractor_name owkin-phikon-v2 --batch_size 256
+# python aug_c_extract_features.py --dataset TCGA-lung --img_norm imagenet --extractor_name virchow-v1-concat --batch_size 256
+# python aug_c_extract_features.py --dataset TCGA-lung --img_norm resize_only --extractor_name simclr-tcga-lung_resnet18-10x --batch_size 256
+# python aug_c_extract_features.py --dataset TCGA-lung --img_norm imagenet --extractor_name simclr-tcga-lung_resnet18-10x --batch_size 256
 # TODO:
 
 if __name__ == '__main__':
