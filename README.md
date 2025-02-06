@@ -1,8 +1,6 @@
 # Choosing a Promising Histopathology Foundation Model by Clustering Augmented Patches
 
-Feature extration and clustering evaluation code in this repository is based on my code from [LC25000-clean](https://github.com/GeorgeBatch/LC25000-clean)
-
-Patch extraction code uses TIAToolbox: https://github.com/TissueImageAnalytics/tiatoolbox
+Feature extration and clustering evaluation code in this repository is based on my code from [LC25000-clean](https://github.com/GeorgeBatch/LC25000-clean) repository.
 
 ## Environment Setup
 
@@ -127,3 +125,13 @@ To evaluate a new model on a new dataset, follow these steps:
 6. Extract features from augmented patches using a feature extractor model with the prefered normalisation method using the [aug_c_extract_features.py](./aug_c_extract_features.py) script.
 7. Evaluate the clustering performance using [aug_d_evaluate_clustering.py](./aug_d_evaluate_clustering.py) script.
 8. Analyze the evaluation results using the [aug1-analyze-clustering-results.ipynb](./aug1-analyze-clustering-results.ipynb) notebook.
+
+## Acknowledgements
+
+George Batchkala is supported by Fergus Gleeson's A2 research funds, UKRI DART Lung Health Program (Innovate UK grant 40255), and the EPSRC Center for Doctoral Training in Health Data Science (EP/S02428X/1).
+
+This project relied on other repositories.
+1. Patch extraction: [TIAToolbox](https://github.com/TissueImageAnalytics/tiatoolbox)
+2. Feature extraction models: [UNI](https://github.com/mahmoodlab/UNI/), [Prov-GigaPath](https://github.com/prov-gigapath/prov-gigapath), [Phikon-v2](https://huggingface.co/owkin/phikon-v2), [Virchow](https://huggingface.co/paige-ai/Virchow), [dsmil-wsi](https://github.com/binli123/dsmil-wsi)
+3. Clustering: [scikit-learn](https://github.com/scikit-learn/scikit-learn)
+
