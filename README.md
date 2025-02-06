@@ -1,5 +1,7 @@
 # Choosing a Promising Histopathology Foundation Model by Clustering Augmented Patches
 
+The idea of this project is to evaluate the performance of different histopathology foundation models (**histFM**) on patch-level pre-text tasks in order to choose a promising foundation model for subsequent downstream slide-level tasks. This repository shows how a sample of patches can be extracted from histopathology slides and then used to evaluate the performance of different histFM models. The pre-text task chosen as an example in this repository is clustering augmented patches. The performance of the histFM models is evaluated by comparing the clustering results with the ground truth labels of the patches. Other pre-text tasks can be used for preliminary evaluation of histopathology foundation models.
+
 Feature extration and clustering evaluation code in this repository is based on my code from [LC25000-clean](https://github.com/GeorgeBatch/LC25000-clean) repository.
 
 ## Environment Setup
