@@ -6,6 +6,17 @@ Feature extration and clustering evaluation code in this repository is based on 
 
 Run the commands detailed in the [environment-creation.md](./environment-creation.md) file to create a conda environment with the necessary dependencies.
 
+## Datasets and Feature Extractors
+
+* 5 datasets:
+  * 2 private lung cancer datasets: OUH lung, DART lung
+  * 2 public lung cancer datasets: TCGA lung, TCIC-CPTAC lung
+  * 1 breast cancer dataset: CAMELYON16
+* 6 feature extractors:
+  * Lung cancer ResNet18 (used four lung cancer datasets) pre-trained by Bin Li for DS-MIL work: https://drive.google.com/drive/folders/1Rn_VpgM82VEfnjiVjDbObbBFHvs0V1OE
+  * Breast cancer ResNet18 (used only on the CAMELYON16 dataset) pre-trained by Bin Li for DS-MIL work: https://drive.google.com/drive/folders/14pSKk2rnPJiJsGK2CQJXctP7fhRJZiyn
+  * 4 general purpose foundation models: UNI, Prov-GigaPath, Phikon-v2, Virchow v1 concat.
+
 # 1. Extract Patches
 
 **Script**: [aug_a_extract_and_save_patches.py](./aug_a_extract_and_save_patches.py)
@@ -101,16 +112,6 @@ Other arguments:
 
 To reproduce plots, run the notebook [aug1-analyze-clustering-results.ipynb](./aug1-analyze-clustering-results.ipynb).
 
-## 5. Classification Experiments
-
-* 5 datasets:
-  * 4 lung cancer datasets: OUH lung, DART lung, TCGA lung, TCIC-CPTAC lung
-  * 1 breast cancer dataset: CAMELYON16
-* 6 feature extractors:
-  * Lung cancer ResNet18 (used four lung cancer datasets)
-  * Breast cancer ResNet18 (used only on the CAMELYON16 dataset)
-  * 4 general purpose foundation models: UNI, Prov-GigaPath, Phikon-v2, Virchow v1 concat.
-* Feature aggregator: AB-MIL
 
 ## Evaluating a New Model
 
